@@ -37,7 +37,6 @@ public:
     QString lastPackage() const;
 
     Q_INVOKABLE QString enumString(Role role);
-    Q_INVOKABLE void cancel();
 
 signals:
     void tidStringChanged();

@@ -51,12 +51,4 @@ QString Transaction::enumString(Transaction::Role role)
     return staticMetaObject.enumerator(index).valueToKey(role);
 }
 
-void Transaction::cancel()
-{
-    qDebug() << "CANCEL";
-    QDBusPendingReply<> ret =PackageKit::Transaction::cancel();
-    ret.waitForFinished();
-    qDebug() << "CANCEL DONE";
-}
-
 #include "Transaction.moc"
