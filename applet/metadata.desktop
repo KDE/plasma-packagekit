@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=PackageKit
+Comment=Package manager monitor
+
+# FIXME: need to talk to AndreasK about iconing
+Icon=apper
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+
+X-Plasma-NotificationArea=true
+X-Plasma-NotificationAreaCategory=SystemServices
+
+X-KDE-PluginInfo-Name=org.kde.plasma.packagekit
+X-KDE-PluginInfo-Category=System
+X-KDE-PluginInfo-Author=Harald Sitter
+X-KDE-PluginInfo-Email=sitter@kde.org
+X-KDE-PluginInfo-Version=1.0.0
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=false
