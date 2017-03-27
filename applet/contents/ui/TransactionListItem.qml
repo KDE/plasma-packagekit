@@ -67,39 +67,6 @@ PlasmaComponents.ListItem {
             wrapMode: Text.NoWrap
             elide: Text.ElideRight
             text: lastPackage || ""
-//            onTextChanged: {
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug("!!")
-//                console.debug(text)
-//                console.debug(text != "")
-//                console.debug(visible)
-//            }
-//            onVisibleChanged:{
-//                console.debug("~~")
-//                console.debug("~~")
-//                console.debug("~~")
-//                console.debug("~~")
-//                console.debug("~~")
-//                console.debug("~~")
-//                console.debug("~~")
-//                console.debug("~~")
-//                console.debug("~~")
-//                console.debug("~~")
-//                console.debug(text)
-//                console.debug(text != "")
-//                console.debug(visible)
-//            }
             visible: text != ""
         }
         PlasmaExtras.Heading {
